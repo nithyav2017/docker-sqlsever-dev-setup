@@ -1,4 +1,4 @@
-# Dcokerized SQL Server Developer Setup
+# Dockerized SQL Server Developer Setup
 ## Overview
 This project provides a reproducable Docker Compose Setuo for Microsoft SQL Server, designed to help developers quickly spin up a local database environment. It includes 
 sample Database AdventureWorks2022 , Performance tuning demos, and stepwise onboarding documentation.
