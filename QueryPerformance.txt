@@ -1,0 +1,17 @@
+ SELECT * FROM Sales.SalesOrderDetail WHERE ProductID = 707;
+
+(3083 rows affected)
+Table 'SalesOrderDetail'. Scan count 1, logical reads 1238, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+
+ SQL Server Execution Times:
+   CPU time = 16 ms,  elapsed time = 15 ms.
+
+//Drop Index
+
+(3083 rows affected)
+Table 'SalesOrderDetail'. Scan count 1, logical reads 1238, physical reads 0, page server reads 0, read-ahead reads 0, page server read-ahead reads 0, lob logical reads 0, lob physical reads 0, lob page server reads 0, lob read-ahead reads 0, lob page server read-ahead reads 0.
+
+ SQL Server Execution Times:
+   CPU time = 15 ms,  elapsed time = 19 ms.
+
+
