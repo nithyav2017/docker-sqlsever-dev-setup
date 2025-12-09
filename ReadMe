@@ -1,0 +1,33 @@
+#Dcokerized SQL Server Developer Setup
+##Overview
+This project provides a reproducable Docker Compose Setuo for Microsoft SQL Server, designed to help developers quickly spin up a local database environment. It includes 
+sample Database AdventureWorks2022 , Performance tuning demos, and stepwise onboarding documentation.
+
+##Features
+-Docker Compose Configuration for SQL Server
+-Sample query to Restore database and select data (`init.sql`)
+-Stepwise onboarding instructions for new developers
+-Query Optimization Demo (Execution Plans, Indexing Strategies)
+-Troubleshooting notes for common Docker/SQL Issues
+
+## Prerequisites
+-Docker Desktop installed
+-VS Code with YAML (Red Hat) + Docker extensions 
+
+## To Get Started 
+1. Clone the repository:
+    ```bash 
+    git clone https://github.com/nithyav2017/docker-sqlsever-dev-setup.git
+    cd docker-sqlserver-dev-setup
+2. Start SQL Server in Docker:
+    docker-compose up -d
+3. Connect using SSMS 
+    Server : localhost,1433
+    User: sa
+    Password: passwrd
+4. Connect using CLI
+    sqlcmd -S localhost,1433 -U sa -P 'Passwrd'
+    with DB:  sqlcmd -S localhost,1433 -U sa -P 'Passwrd'  -d AdventureWorks2022 -W -s"," [`W : To remove traiing space ; -s",":  Set result as CSV format`]
+
+
+
