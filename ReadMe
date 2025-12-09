@@ -4,15 +4,15 @@ This project provides a reproducable Docker Compose Setuo for Microsoft SQL Serv
 sample Database AdventureWorks2022 , Performance tuning demos, and stepwise onboarding documentation.
 
 ## Features
--Docker Compose Configuration for SQL Server
--Sample query to Restore database and select data (`init.sql`)
--Stepwise onboarding instructions for new developers
--Query Optimization Demo (Execution Plans, Indexing Strategies)
--Troubleshooting notes for common Docker/SQL Issues
+- Docker Compose Configuration for SQL Server
+- Sample query to Restore database and select data (`init.sql`)
+- Stepwise onboarding instructions for new developers
+- Query Optimization Demo (Execution Plans, Indexing Strategies)
+- Troubleshooting notes for common Docker/SQL Issues
 
 ## Prerequisites
--Docker Desktop installed
--VS Code with YAML (Red Hat) + Docker extensions 
+- Docker Desktop installed
+- VS Code with YAML (Red Hat) + Docker extensions 
 
 ## To Get Started 
 1. Clone the repository:
